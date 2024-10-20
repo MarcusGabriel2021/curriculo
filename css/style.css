@@ -1,0 +1,121 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  background-color: #024059;
+  font-family: Montserrat, "Times New Roman", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  width: auto;
+  height: 80px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  width: 80px;
+  height: 80px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar ul li {
+  display: inline;
+}
+.navbar ul li a {
+  color: #024059;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar ul li a:hover {
+  border-radius: 10px;
+  color: white;
+  background-color: #BF6415;
+}
+.section-1 {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+  text-align: justify;
+  line-height: 2;
+}
+.section-1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 30px;
+  background-color: azure;
+}
+.section-1 p {
+  width: 50%;
+}
+.section-2 {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+.academic, .experience {
+  background-color: #BF6415;
+  width: auto;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  line-height: 2;
+}
+.academic p, .experience li{
+  display: flex;
+  margin: 10px;
+  text-align: justify;
+  list-style-type: none;
+}
+.head {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.head img, .head h1{
+  margin: 10px;
+}
+.projects {
+  display: flex;
+  align-items: center;
+}
+.project-1, .project-2 {
+  background-color: #BF6415;
+  width: 50%;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-1 p, .project-2 p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+.project-img {
+  width: 80%;
+  border-radius: 20px;
+  margin: 20px;
+}
